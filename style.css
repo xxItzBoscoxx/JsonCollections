@@ -28,7 +28,6 @@ html, body, #mainContainer{
   padding-top: 2vw;
   padding-bottom: 2vw;
   color: white;
-  text-shadow: .2vw .2vw black;
 }
 #contentContainer{
   display: flex;
@@ -77,6 +76,7 @@ html, body, #mainContainer{
 h1{
   font-family: ZenDots;
   font-size: 4vw;
+  text-shadow: .2vw .2vw black;
 }
 h3{
   font-family: ZenDots;
@@ -92,4 +92,5 @@ p{
 }
 #headerSection p{
   text-align: center;
+  text-shadow: .05vw .05vw black;
 }

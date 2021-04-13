@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'ZenDots';
+  src: url('ZenDots-Regular.woff') format('woff');
+  src: url('ZenDots-Regular.ttf') format('truetype');
+  src: url('ZenDots-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body, #mainContainer{
+  height: auto;
+  width: 100%;
+}
+#mainContainer{
+  display: flex;
+  flex-direction: column;
+  background-image: url("backdrop.jpg");
+  color: black;
+}
+#headerSection{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  color: white;
+  text-shadow: .2vw .2vw black;
+}
+#contentContainer{
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  justify-content: center;
+}
+#contentGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 3vw;
+  padding: 2vw;
+}
+.contentItem{
+  display: flex;
+  flex-direction: column;
+  border: .5vw solid;
+  border-radius: 2vw;
+  padding: 2vw;
+}
+.contentHeader{
+  padding-bottom: 2vw;
+}
+.contentDescription{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3vw;
+}
+.contentImage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  padding-bottom: 1.5vw;
+}
+.coverImage{
+  height: 20vw;
+  width: 20vw;
+  background-color: black;
+  border: .5vw solid black;
+  border-radius: 2vw;
+}
+h1{
+  font-family: ZenDots;
+  font-size: 4vw;
+}
+h3{
+  font-family: ZenDots;
+  text-align: center;
+  font-size: 2vw;
+  border-bottom: .5vw solid;
+  text-shadow: .05vw .05vw white;
+}
+p{
+  font-family: serif;
+  font-size: 2vw;
+  text-align: left;
+}
+#headerSection p{
+  text-align: center;
+}

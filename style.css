@@ -92,4 +92,5 @@ p{
 }
 #headerSection p{
   text-align: center;
+  text-shadow: .1vw .1vw black;
 }
